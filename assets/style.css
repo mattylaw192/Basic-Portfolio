@@ -7,8 +7,9 @@
 
 }
 
-body {
-    background-color:grey
+body {   
+    background-image: url("assets/images/background.jpg");
+    z-index:2;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1 {
 .about-me {
     background-color:white;
     border-style:solid;
-    border-color:black;
-    border-width:2px;
+    border-color:grey;
+    border-width:.5px;
 }
+
