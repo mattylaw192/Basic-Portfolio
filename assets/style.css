@@ -2,33 +2,106 @@
 
     margin-right: auto;
     margin-left: auto;
-    padding:25px;
+    padding:0px 0px 25px 0px;
     max-width:1100px;
 
 }
 
-body {   
-    background-image: url("assets/images/background.jpg");
-    z-index:2;
+header {
+    position:fixed;
+    Top:0px;
+    left:0px;
+    width:100%;
+    height:100px;
+    margin:-20px 0px 10px 0px;
+    background-color:white;
+       }
+
+
+/*This is the site-wide navigation*/      
+.navigation {
+    color:#666666;
+    float:right;
+    Position:relative;
+    right:25%;
+    top:-50px;
+    
 }
+
+
 
 h1 {
-    color:red;
-    text-align:center;
+    color:#4aaaa5;
+    Position: relative;
+    Left:10%;
+    text-align:left;
 }
 
+
+/*This is the green box*/
 #name {
-    Position:static;
-    Left:10px;
-    max-width:auto;
-    color:white;
-    background-color: #4aaaa5;
+    position:relative;
+    Left:20%;
+    width:300px;
+    height:80px;
+    background-color:#4aaaa5;
+        
 }
 
+
+/*This is the first name text within the green box*/
+#name1 {
+    Position:relative;
+    Left:15%;
+    height:75px;
+    color:white;
+    padding:20px 15px 20px 15px;
+}
+
+
+body {   
+    background-image: URL('images/background3.jpg');
+    z-index:2;
+    margin:125px;
+}
+
+
+/*This is the about me content within the body*/
 .about-me {
     background-color:white;
     border-style:solid;
-    border-color:grey;
+    border-color:rgb(196, 196, 196);
     border-width:.5px;
 }
 
+p {
+    padding:0px 10px 0px 10px;
+    color:#777777;
+
+}
+
+#headshot {
+    float:left;
+    padding:10px;
+    width:auto;
+}
+
+.footer {
+    Position:fixed;
+    Bottom:0px;
+    Left:0px;
+    width:100%;
+    height:50px;
+    background-color:#666666;
+    color:white;
+    text-align:center;
+   
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
