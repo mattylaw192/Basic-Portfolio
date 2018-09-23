@@ -4,6 +4,8 @@
     margin-left: auto;
     padding:0px 0px 25px 0px;
     max-width:1100px;
+    
+    
 
 }
 
@@ -79,19 +81,27 @@ h2 {
 
 body {   
     background-image: URL('images/background3.jpg');
-    z-index:0;
+    position:relative;
+    top:5%;
     margin:125px;
     padding:10px;
+    overflow:scroll;
+    height:500px;
+    
 }
 
 
 /*This is the about me content within the body*/
 .about-me {
-    Position:fixed;
+    Position:relative;
     width:960px;
+    
+    bottom:5%;
     background-color:white;
    box-shadow:2px 1px 1px #dddddd;
-   z-index:9;
+   margin:0px 0px 10px 0px;
+   
+   
     
 }
 
@@ -101,9 +111,11 @@ body {
     
     left:2%;
     right:-10px;
+    bottom:40px;
     padding:0px 10px 10px 20px;
     margin:5px;
     color:#777777; 
+    height:auto;
     
 }
 
@@ -126,7 +138,7 @@ p {
 }
 
 .footer {
-    Position:fixed;
+    position:fixed;
     Bottom:0px;
     Left:0px;
     width:100%;
@@ -276,9 +288,11 @@ padding:5px;
 }
 
 #about-me-portfolio {
-    position:fixed;
+    position:relative;
     width:960px;
+   height:800px;
+    top:15%;
     background-color:white;
    box-shadow:2px 1px 1px #dddddd;
-   z-index:9;
+   z-index:0;
     }
